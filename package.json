@@ -1,6 +1,6 @@
 {
   "name": "passport-atlassian-oauth2",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Passport strategy for authenticating with Atlassian (Jira) using OAuth 2 (3LO)",
   "main": "lib/strategy.js",
   "license": "MIT",
