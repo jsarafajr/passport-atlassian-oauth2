@@ -51,12 +51,14 @@ See complete Express.js example [here](https://github.com/jsarafajr/passport-atl
     {
       "id": "3942d640-b74e-11e8-96f8-529269fb1459",
       "name": "awesome-jira",
+      "url": "https://awesome-jira.atlassian.net",
       "scopes": ["read:jira-user"],
       "avatarUrl": "https://site-admin-avatar-cdn.prod.public.atl-paas.net/avatars/240/trophy.png"
     },
     {
       "id": "eff705b1-5cd8-40d1-ac46-9a9516cbc527",
       "name": "super-product",
+      "url": "https://super-product.atlassian.net",
       "scopes": ["read:jira-user"],
       "avatarUrl": "https://site-admin-avatar-cdn.prod.public.atl-paas.net/avatars/240/cup.png"
     }
