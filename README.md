@@ -17,6 +17,8 @@ $ npm install passport-atlassian-oauth2
 
 Before using `passport-atlassian-oauth2` you must register an application within [App Management](https://developer.atlassian.com/apps/). If you don't have one follow ["Enabling OAuth 2.0 authorization code grants"](https://developer.atlassian.com/cloud/jira/platform/oauth-2-authorization-code-grants-3lo-for-apps/#enabling-oauth-2-0--3lo-) instructions from Jira documentation page.
 
+⚠️Important: "User identity API" should be enabled in App Management for this strategy to work if you're interested in getting profile information such as name, url, etc. Otherwise, pass `skipUserProfile: true` in strategy constructor options.
+
 #### Configure Strategy
 
 The client ID and secret obtained when creating an application are supplied as options when creating the strategy.

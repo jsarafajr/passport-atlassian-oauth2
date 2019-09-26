@@ -25,6 +25,9 @@
     "authentication",
     "3lo"
   ],
+  "scripts": {
+    "lint": "eslint ."
+  },
   "dependencies": {
     "passport-oauth2": "^1.4.0"
   },

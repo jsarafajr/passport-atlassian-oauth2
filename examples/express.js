@@ -6,7 +6,7 @@ const AtlassianStrategy = require('../');
 // Configure Atlassian OOuth2 strategy for use by Passport.
 passport.use(new AtlassianStrategy({
   clientID: 'gZUApVepYymWPyW0ZUTeeW2XuT3UOyyW',
-  clientSecret: 'iOcSmNhN-XSJ4TbvxVqnRBy2zTUCyiQKB1tK7hcJgVEU1ULeMFs1g1rsod02S6wZ',
+  clientSecret: 'YIqqHQ1jQsF03YTqKZwFloRqTzWVDfWknEwAkhqi-SHz59UXZL8STzAp0slUWzSu',
   callbackURL: 'http://localhost:8080/auth/atlassian/callback',
   scope: 'offline_access read:jira-user',
 }, (accessToken, refreshToken, profile, cb) => {
@@ -28,6 +28,14 @@ app.get('/auth/atlassian', passport.authenticate('atlassian'));
 app.get('/auth/atlassian/callback', passport.authenticate('atlassian', { failureRedirect: '/error' }), (req, res) => {
   // Successfull authorization, redirect user to profile page
   res.redirect('/profile-page');
+});
+
+app.get('/profile-page', (req, res) => {
+  res.send('It works!');
+});
+
+app.get('/error', (req, res) => {
+  res.send('Authorization error :(');
 });
 
 app.listen(8080, () => console.log('server started on port 8080'));
