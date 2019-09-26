@@ -1,5 +1,7 @@
 # passport-atlassian-oauth2
 
+[![Build Status](https://travis-ci.org/jsarafajr/passport-atlassian-oauth2.svg?branch=master)](https://travis-ci.org/jsarafajr/passport-atlassian-oauth2)
+
 [Passport](https://github.com/jaredhanson/passport) strategy for authenticating
 with [Atlassian](https://atlassian.com) services using OAuth 2 3LO (three-legged OAuth).
 
