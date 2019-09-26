@@ -15,7 +15,7 @@ $ npm install passport-atlassian-oauth2
 
 #### Create Application
 
-Before using `passport-atlassian-oauth2` you must register an application within [App Management](https://developer.atlassian.com/apps/). If you don't have one follow ["Enabling OAuth 2.0 authorization code grants"](https://developer.atlassian.com/cloud/jira/platform/oauth-2-authorization-code-grants-3lo-for-apps/#enabling-oauth-2-0-authorization-code-grants) instructions from Jira documentation page.
+Before using `passport-atlassian-oauth2` you must register an application within [App Management](https://developer.atlassian.com/apps/). If you don't have one follow ["Enabling OAuth 2.0 authorization code grants"](https://developer.atlassian.com/cloud/jira/platform/oauth-2-authorization-code-grants-3lo-for-apps/#enabling-oauth-2-0--3lo-) instructions from Jira documentation page.
 
 #### Configure Strategy
 
@@ -70,4 +70,4 @@ See complete Express.js example [here](https://github.com/jsarafajr/passport-atl
 
 [The MIT License](http://opensource.org/licenses/MIT)
 
-Copyright (c) 2018 [Yevhenii Baraniuk](http://github.com/jsarafajr)
+Copyright (c) 2019 [Yevhenii Baraniuk](http://github.com/jsarafajr)
