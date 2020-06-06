@@ -1,6 +1,6 @@
 # passport-atlassian-oauth2
 
-[![Build Status](https://travis-ci.org/jsarafajr/passport-atlassian-oauth2.svg?branch=master)](https://travis-ci.org/jsarafajr/passport-atlassian-oauth2) [![Greenkeeper badge](https://badges.greenkeeper.io/jsarafajr/passport-atlassian-oauth2.svg)](https://greenkeeper.io/)
+[![Build Status](https://travis-ci.org/jsarafajr/passport-atlassian-oauth2.svg?branch=master)](https://travis-ci.org/jsarafajr/passport-atlassian-oauth2) [![Known Vulnerabilities](https://snyk.io/test/github/jsarafajr/passport-atlassian-oauth2/badge.svg)](https://snyk.io/test/github/jsarafajr/passport-atlassian-oauth2)
 
 [Passport](https://github.com/jaredhanson/passport) strategy for authenticating
 with [Atlassian](https://atlassian.com) services using OAuth 2 3LO (three-legged OAuth).
