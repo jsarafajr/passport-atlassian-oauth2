@@ -1,7 +1,7 @@
 /* eslint-disable import/no-extraneous-dependencies */
 const express = require('express');
 const passport = require('passport');
-const AtlassianStrategy = require('../');
+const AtlassianStrategy = require('..');
 
 // Configure Atlassian OOuth2 strategy for use by Passport.
 passport.use(new AtlassianStrategy({
